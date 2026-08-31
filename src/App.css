@@ -1,0 +1,184 @@
+:root {
+  --color-dark: #2b1c14;
+  --color-cream: #f5ead6;
+  --color-amber: #c98a3a;
+  --color-amber-dark: #a86b26;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color: var(--color-dark);
+  background: var(--color-cream);
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.75rem;
+  background: var(--color-amber);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: var(--color-amber-dark);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--color-amber);
+  color: var(--color-amber);
+}
+
+.btn-outline:hover {
+  background: var(--color-amber);
+  color: #fff;
+}
+
+/* Header */
+.site-header {
+  background: var(--color-dark);
+  color: var(--color-cream);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-cream);
+  text-decoration: none;
+}
+
+.logo span {
+  color: var(--color-amber);
+}
+
+.site-header nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.site-header nav a {
+  color: var(--color-cream);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-header nav a:hover {
+  color: var(--color-amber);
+}
+
+/* Hero */
+.hero {
+  padding: 6rem 0;
+  text-align: center;
+  background: linear-gradient(180deg, var(--color-dark), #43301f);
+  color: var(--color-cream);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 560px;
+  margin: 0 auto 2rem;
+  opacity: 0.9;
+}
+
+/* Services */
+.services {
+  padding: 5rem 0;
+  background: #fff;
+}
+
+/* Products */
+.products {
+  padding: 5rem 0;
+}
+
+.services h2,
+.products h2,
+.about h2,
+.contact h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(43, 28, 20, 0.08);
+}
+
+.product-card h3 {
+  margin-top: 0;
+  color: var(--color-amber-dark);
+}
+
+/* About */
+.about {
+  padding: 5rem 0;
+  background: #fff;
+  text-align: center;
+}
+
+.about p {
+  max-width: 640px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Contact */
+.contact {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.contact p {
+  max-width: 520px;
+  margin: 0 auto 2rem;
+}
+
+/* Footer */
+.site-footer {
+  background: var(--color-dark);
+  color: var(--color-cream);
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
