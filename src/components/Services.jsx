@@ -7,12 +7,12 @@ const services = [
   {
     name: 'Fresh Cold Brew Delivery',
     description:
-      'Scheduled deliveries keep your kegs stocked with freshly steeped cold brew, rotated before anything goes stale.',
+      'Scheduled deliveries keep your kegerator stocked with fresh cold brew, rotated before anything goes stale.',
   },
   {
     name: 'Cleaning & Maintenance',
     description:
-      'Our team handles line cleaning, keg swaps, and equipment upkeep, so your pour is always fresh and flowing.',
+      'Our team handles line cleaning, coffee box swaps, and equipment upkeep, so your pour is always fresh and flowing.',
   },
 ]
 

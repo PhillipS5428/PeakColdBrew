@@ -2,17 +2,12 @@ const products = [
   {
     name: 'Original Cold Brew',
     description:
-      'Smooth and bold, steeped for 18 hours for a naturally sweet, low-acid finish.',
+      'Medium roast. Smooth and bold.',
   },
   {
     name: 'Nitro Cold Brew',
     description:
       'Cascading, creamy texture from nitrogen infusion — no cream required.',
-  },
-  {
-    name: 'Decaf Cold Brew',
-    description:
-      'Smooth and rich, perfect for those who want the cold brew experience without the caffeine.',
   },
 ]
 
