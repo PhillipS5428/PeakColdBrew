@@ -3,7 +3,7 @@ function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <a className="logo" href="#top">
-          Peak <span>Cold Brew Coffee</span>
+          Fount <span>Coffee Solutions LLC</span>
         </a>
         <nav>
           <a href="#services">Services</a>

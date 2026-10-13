@@ -8,8 +8,8 @@ function Contact() {
           shop? Reach out and we'll set up your kegerator, delivery schedule,
           and cleaning plan.
         </p>
-        <a className="btn btn-outline" href="mailto:hello@peakcbc.com">
-          hello@peakcbc.com
+        <a className="btn btn-outline" href="mailto:phillip.simmons90@gmail.com">
+          phillip.simmons90@gmail.com
         </a>
       </div>
     </section>
