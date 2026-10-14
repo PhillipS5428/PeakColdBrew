@@ -10,6 +10,11 @@ function About() {
           it stocked, and taking care of cleaning and maintenance along
           the way.
         </p>
+        <p>
+          We proudly serve the greater Colorado Springs area in Colorado,
+          bringing great cold brew and a convenient, white-glove experience to
+          local offices and shops.
+        </p>
       </div>
     </section>
   )

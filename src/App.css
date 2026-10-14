@@ -163,6 +163,10 @@ body {
   line-height: 1.6;
 }
 
+.about p + p {
+  margin-top: 1rem;
+}
+
 /* Contact */
 .contact {
   padding: 5rem 0;

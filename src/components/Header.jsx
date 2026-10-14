@@ -5,12 +5,6 @@ function Header() {
         <a className="logo" href="#top">
           Fount <span>Coffee Solutions LLC</span>
         </a>
-        <nav>
-          <a href="#services">Services</a>
-          <a href="#flavors">Flavors</a>
-          <a href="#about">About</a>
-          <a href="#contact">Get Started</a>
-        </nav>
       </div>
     </header>
   )
