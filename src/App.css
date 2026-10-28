@@ -76,6 +76,12 @@ body {
   color: var(--color-amber);
 }
 
+.service-area {
+  margin: 0.2rem 0 0;
+  font-size: 0.85rem;
+  color: var(--color-cream);
+}
+
 .site-header nav {
   display: flex;
   gap: 1.5rem;
